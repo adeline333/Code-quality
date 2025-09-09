@@ -4,15 +4,15 @@
  *  PLEASE DO NOT REMOVE `export default function`
  */
 
-//FUNCTION 1
-// export default function countR(word="") {
-//   var count = 0;
-//   for (let i = 0; i < word.length; i++) {
-//     if (word[i] === "R") {
-//       count++;
+// FUNCTION 1
+// export default function cntRbt(ls) {
+//   var cnt = 0;
+//   for (var i = 0; i < ls.length; i++) {
+//     if (ls[i] == "R") {
+//       cnt++;
 //     }
 //   }
-//   return count;
+//   return cnt;
 // }
 
 export default function countR(word = "") {
