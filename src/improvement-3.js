@@ -15,5 +15,7 @@
 //   return largest;
 // }
 
-const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = (numbers=[]) =>
+    numbers.length? Math.max(...numbers):undefined
+
 export default findLargestNumber;
